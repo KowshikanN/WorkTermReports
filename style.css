@@ -1,0 +1,161 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: aliceblue !important;
+}
+
+/* Nav Bar Styles */
+.navbar {
+  padding: 1.5rem 3rem !important;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold;
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+/* Sections Styles */
+section {
+  padding: 100px 20px;
+  min-height: 70vh;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Introduction Styles */
+.introduction .container {
+  width: 100%;
+}
+
+.introduction h1 {
+  font-size: 3rem;
+}
+
+.introduction p {
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 992px) {
+  .introduction {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
+  .introduction .container {
+    max-width: 1000px;
+    width: 100%;
+  }
+}
+
+/* employer Styles */
+.employer p {
+  font-size: 22px;
+}
+
+/* Job Description styles */
+.job-description p {
+  font-size: 22px;
+}
+
+.featurette {
+  margin-bottom: 5rem;
+}
+
+.featurette-heading {
+  font-size: 2.5rem;
+}
+
+.featurette-image {
+  width: 80%; /* Adjust width as needed */
+  max-width: 500px; /* Set a max width for larger screens */
+  height: auto;
+}
+
+@media (max-width: 767.98px) {
+  .featurette {
+    text-align: center;
+  }
+
+  .featurette-heading {
+    font-size: 2rem;
+  }
+
+  .featurette-image {
+    display: none;
+  }
+}
+
+/* Goals Styles */
+.container.goals-section {
+  padding: 40px 0;
+}
+
+.container.goals-section h2 {
+  margin-bottom: 60px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.container.goals-section .row {
+  margin-bottom: 20px;
+}
+
+.container.goals-section .col-lg-4 {
+  text-align: center;
+}
+
+.container.goals-section .bd-placeholder-img {
+  background-color: #e9ecef;
+  border-radius: 50%;
+}
+
+.container.goals-section h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.container.goals-section p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #000000;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767.98px) {
+  hr {
+    display: block;
+  }
+}
+
+/* Conclution + Acknowledgments */
+.conclusion-and-acknowledgments p {
+  font-size: 22px;
+}
